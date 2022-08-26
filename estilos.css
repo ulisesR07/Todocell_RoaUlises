@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+.bgnav{
+    background-color: rgb(127, 218, 232);
+}
+.navbar-brand{
+    text-shadow: 0 0 5px #333;
+    font-weight: bold;
+}
+/* agragar un texto despues */
+/* .navbar-brand::before{
+    content: "coder";
+} */
+/* agregar un texto antes */
+.navbar-brand::after{
+    content: "Todocell";
+}
+/* agregar una imagen */
+/* .navbar-brand::before{
+    content: url(img/logo.jpg);
+} */
+/* agregar un emoji, tecla de window + punto */
+/* .navbar-brand::before{
+    content: "📱";
+} */
+.nav-link{
+    color:rgb(132, 242, 242) !important ;
+    text-transform: capitalize;
+    text-shadow: 0 0 5px #333;
+}
+/* jumbotron sirve para agregar o darle alguna imagen de portada o algun contenido para destracar */
+.jumbotron{
+    background-image: url(img/logo.jpg);
+    background-size: cover;
+    background-position: top;
+    color: rgb(132, 242, 242);
+    border-radius: 0;
+    margin: 0;
+    text-shadow: 0 0 5px #fff;
+}
+/* cover, para que agarre toda la imagen */
+.btn-primary{
+    background-color:rgb(29, 249, 183) ;
+}
+.btn-primary:hover{
+    background-color:rgb(42, 125, 125) ;
+}
+h2{
+    background-color: rgb(151, 222, 242);
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10 px;
+    margin: 0;
+}
+.al{
+    background-image: url(multimedia/android-vs-ios-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.ar h3{
+    text-align: center;
+    color: #2a7d7d;
+}
+.ar p::selection{
+    color: rgb(132, 242, 242);
+    background-color: #70e7bf ;
+}
+.productos{
+    height: auto;
+    background-color: rgb(110, 137, 235);
+}
+footer{
+    background-color: #2a7d7d;
+    background-image: linear-gradient(210deg, #2a7d7d 0%, #e770d5 46%, #2a7d7d 100%);
+    text-align: center;
+    color: #fff;
+    font-family:'DynaPuff', cursive;
+    padding: 20px;
+}
+/*.redes{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+p::first-line{
+    color: red;
+}*/ /*primera lineas de parrafos con un color*/
+
+p::first-letter{
+    color: springgreen;
+} /*iniciales con color verde*/
+.redes{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+footer{
+    background-color: #2a7d7d;
+    background-image: linear-gradient(210deg, #2a7d7d 0%, #8af5da 46%, #2a7d7d 100%);
+    text-align: center;
+    color: #fff;
+    font-family:'DynaPuff', cursive;
+    padding: 20px;
+}
+.flex-contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+.cajaSamsung{
+    
+    margin: 5px;
+}
